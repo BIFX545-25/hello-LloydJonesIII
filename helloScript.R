@@ -5,5 +5,5 @@ hello <- function(name)
 {
   # string output for the function 
   # Hello "input" ???
-  paste0("Hello ", name, "???") # paste0 has no separator characters between inputs 
+  paste("Hello ", name, "???", sep = '') # paste has a space separator characters between inputs as a default
 }
